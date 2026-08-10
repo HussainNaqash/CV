@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naqash Hussain — CV</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #eef1f4;
+    color: #20252b;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    line-height: 1.48;
+  }
+  .cv {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 24px auto;
+    padding: 18mm 17mm;
+    background: #fff;
+    box-shadow: 0 8px 35px rgba(0,0,0,.10);
+  }
+  header {
+    border-bottom: 2px solid #20252b;
+    padding: 4px 0 14px;
+    margin-bottom: 16px;
+  }
+  h1 {
+    margin: 0 0 4px;
+    font-size: 30px;
+    letter-spacing: .4px;
+    font-weight: 700;
+  }
+  .contact {
+    font-size: 11.5px;
+    color: #4d5660;
+  }
+  .contact a { color: inherit; text-decoration: none; }
+  .section {
+    margin-top: 14px;
+    padding: 13px 15px;
+    border: 1px solid #e0e4e8;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .section-title {
+    margin: 0 0 9px;
+    font-size: 12.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 750;
+    color: #20252b;
+    border-bottom: 1px solid #d8dde2;   
+    padding-bottom: 4px;
+  }
+  p { margin: 0; font-size: 11.2px; }
+  .item {
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #edf0f2;
+  }
+  .item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: baseline;
+  }
+  .role { font-weight: 700; font-size: 11.5px; }
+  .date { white-space: nowrap; font-size: 10.5px; color: #606a74; }
+  .sub { font-size: 10.8px; color: #4d5660; }
+  ul {
+    margin: 4px 0 0 17px;
+    padding: 0;
+    font-size: 11px;
+  }
+  li { margin: 2px 0; }
+  .project-title { font-weight: 700; }
+  .skills p { margin: 3px 0; }
+  .label { font-weight: 700; }
+  .links a { color: #20252b; }
+  @media (max-width: 850px) {
+    body { background: #fff; }
+    .cv { width: 100%; min-height: auto; margin: 0; padding: 22px 16px; box-shadow: none; }
+    .section { margin-top: 11px; padding: 12px; }
+    .row { flex-direction: column; gap: 0; }
+    .date { white-space: normal; }
+  }
+  @media print {
+    body { background: #fff; }
+    .cv { width: 210mm; min-height: 297mm; margin: 0; padding: 14mm 15mm; box-shadow: none; }
+    .section { break-inside: avoid; }
+    a { text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<main class="cv">
+  <header>
+    <h1>Naqash Hussain</h1>
+    <div class="contact">12 Mirjat Street, Rahooja, Pir Jo Goth 66020</div>
+    <div class="contact">+92 310 3381787 — N</div>
+    <div class="contact links">
+      <a href="https://www.linkedin.com/in/naqash-hussain/">linkedin.com/in/naqash-hussain</a> —
+      <a href="https://github.com/HussainNaqash">github.com/HussainNaqash</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p>Software Engineering graduate with a strong foundation in programming, data analysis, and software development. Strongly interested in research, particularly in the fields of Artificial Intelligence and Machine Learning. Eager to contribute to innovative research while expanding expertise in AI, data science, and software engineering.</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="item">
+      <div class="row">
+        <div class="role">BS in Software Engineering — Sukkur IBA University (4 years)</div>
+        <div class="date">August 15, 2022 - to - May 21, 2026</div>
+      </div>
+      <div class="sub">CGPA: 3.32 / 4.00</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="item"><p><span class="project-title">Form Submission Guide (FYP) — (Python, NLP, OCR, and LLMs)</span><br>AI-based system for real-time document authentication and form verification using language models.</p></div>
+    <div class="item"><p><span class="project-title">Top Movies Mobile App — (Kotlin, Jetpack Compose, )</span><br>Created an app for movie lover who activily seek for great movie recommendations.</p></div>
+    <div class="item"><p><span class="project-title">Netflix Content Analysis Dashboard — (Power BI)</span><br>Designed and developed an interactive dashboard to analyze Netflix content trends.</p></div>
+    <div class="item"><p><span class="project-title">Maze Solver — (Java, DFS, BFS)</span><br>Developed a maze-solving algorithm to visualize pathfinding using search techniques.</p></div>
+    <div class="item"><p><span class="project-title">Cinema Movie Ticket Booking Software — (Java, Swing, MySQL)</span><br>Built a GUI-based system with database integration for managing movie schedules and ticket bookings.</p></div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Relevant Coursework</h2>
+    <p>Human Computer Interaction, Research Methodoly, Programming Fundamentals, Object-Oriented Programming, Data Structures and Algorithms, Database Management Systems, Probability and Statistics, Data Science, Machine Learning, Software Engineering Principles, Web Technologies, Mobile Application Development</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="item">
+      <div class="row"><div class="role">Web Development Trainer at National Vocational and Technical Training Commission (NAVTCC)</div><div class="date">June 2026 – Present</div></div>
+      <div class="sub">Teach Web Technologies</div>
+      <div class="sub">HTML, CSS, JavaScript, React, NodeJS</div>
+    </div>
+    <div class="item">
+      <div class="row"><div class="role">Freelance Graphic Designer</div><div class="date">Jan 2020 – Present</div></div>
+      <div class="sub">Completed 500+ projects</div>
+      <div class="sub">Level Two seller on Fiverr</div>
+    </div>
+    <div class="item">
+      <div class="row"><div class="role">Creative Director Sukkur IBA Official Podcast</div><div class="date">sep 2025 – Present</div></div>
+      <div class="sub">Manage Videography, Photography, Editing of all Podcasts</div>
+    </div>
+    <div class="item">
+      <div class="row"><div class="role">Graphic Designer at Blinx Lanka (PTV LTD), Sri Lanka (Remote)</div><div class="date">Mar 2022 – Dec 2024</div></div>
+      <div class="sub">Completed 400+ projects</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Leadership and Extracurricular Activities</h2>
+    <div class="item">
+      <div class="row"><div class="role">Coordinator, Public Speaking and Literacy Club, Sukkur IBA University</div><div class="date">Sep 2025 – Present</div></div>
+    </div>
+    <div class="item">
+      <div class="role">Academic Curator In SIBAU Model United Nation 4.0</div>
+    </div>
+    <div class="item">
+      <div class="row"><div class="role">Founder, GreenMind Initiative</div><div class="date">Sep 2025 – Present</div></div>
+      <div class="sub">Climate awareness, cleanup drives, tree plantation</div>
+    </div>
+  </section>
+
+  <section class="section skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <p><span class="label">Programming:</span> C++, Java, Python, JavaScript, SQL</p>
+    <p><span class="label">Web:</span> HTML, CSS, React, Node JS</p>
+    <p><span class="label">Data Analytics:</span> Power BI, tableau, Pandas, NumPy, Matplotlib</p>
+    <p><span class="label">Design:</span> Photoshop, Illustrator, InDesign, Figma, Premier Pro</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+      <li>AI Essencials Specialization — Google</li>
+      <li>Python Basic to Advanced — DataCamp</li>
+      <li>HTML &amp; CSS — DataCamp</li>
+      <li>JavaScript — Meta via Coursera</li>
+      <li>Version Control — Meta via Coursera</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Achievements</h2>
+    <ul>
+      <li>Winner Prime Minister Laptop Scheme — 2025</li>
+      <li>Winner Speed Programming at SIBAFest — 2025</li>
+      <li>Completed British Council Youth Led Action Project (YLA) — 2024</li>
+      <li>Winner Jinna Declamation Competition — 2020</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Interests</h2>
+    <p>Teaching, Machine Learning, Data Science, Artificial Intelligence, Software Design and Development, Public Speaking, Photography, Sports, and Gaming</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Languages</h2>
+    <p><span class="label">Native:</span> Sindhi, Urdu, English (Official)</p>
+  </section>
+</main>
+</body>
+</html>
